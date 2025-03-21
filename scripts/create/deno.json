@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-all main.ts",
+    "create": "deno run --allow-all main.ts"
+  },
+  "imports": {
+    "@inquirer/prompts": "npm:@inquirer/prompts@^7.3.2",
+    "@std/fs": "jsr:@std/fs@^1.0.13",
+    "@std/path": "jsr:@std/path@^1.0.8",
+    "chalk": "npm:chalk@^5.4.1",
+    "effect": "npm:effect@^3.13.3",
+    "yaml": "npm:yaml@^2.7.0"
+  }
+}

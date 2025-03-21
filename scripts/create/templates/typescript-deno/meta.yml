@@ -1,0 +1,4 @@
+language: typescript
+instructions: |
+  1. Ensure you have [deno](http://docs.deno.com/runtime/getting_started/installation/) installed
+  2. Run `deno run test`
