@@ -1,0 +1,7 @@
+{
+  "name": "@vault/root",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^4.1.0"
+  }
+}
