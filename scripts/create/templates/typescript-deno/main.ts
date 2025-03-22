@@ -4,6 +4,6 @@ const {{problem_name}} = () => {
   return null;
 }
 
-Deno.test(() => {
+Deno.test(function testA() {
   Assert.assertEquals({{problem_name}}(), null);
 });
