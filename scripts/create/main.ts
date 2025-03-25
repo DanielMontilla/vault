@@ -205,7 +205,11 @@ const program = Effect.gen(function* () {
   );
 
   yield* Effect.gen(function* () {
-    const destination = Path.join(problemsDir, problemMachineName);
+    const destination = Path.join(
+      problemsDir,
+      problemMachineName,
+      template.name
+    );
     const original = Path.join(templatesDir, template.name);
 
     yield* Effect.tryPromise(() =>
@@ -273,14 +277,12 @@ const program = Effect.gen(function* () {
       nl(),
       ap(references.join("\n")),
       nl(2),
+      ap(`# Setup`),
       ap(template.meta.instructions),
       Effect.map(contents => new TextEncoder().encode(contents)),
       Effect.tryMapPromise({
         try: contents =>
-          Deno.writeFile(
-            Path.join(problemsDir, problemMachineName, "README.md"),
-            contents
-          ),
+          Deno.writeFile(Path.join(destination, "README.md"), contents),
         catch: () => ({ _tag: "FailedReadmeWrite" as const }),
       }),
       Effect.tapErrorTag("FailedReadmeWrite", () =>
