@@ -213,6 +213,22 @@ const program = Effect.gen(function* () {
     const original = Path.join(templatesDir, template.name);
 
     yield* Effect.tryPromise(() =>
+      Deno.stat(destination)
+        .then(() => true)
+        .catch(() => false)
+    ).pipe(
+      Effect.andThen(
+        Effect.fn(function* (exists) {
+          if (exists) {
+            const msg = `Destination directory already exists: ${destination}`;
+            yield* printError(msg);
+            yield* Effect.die(msg);
+          }
+        })
+      )
+    );
+
+    yield* Effect.tryPromise(() =>
       Deno.mkdir(destination, { recursive: true })
     );
 
