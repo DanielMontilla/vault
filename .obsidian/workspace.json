@@ -11,12 +11,14 @@
             "id": "dea516a9b3dab0d8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "problems/is_subsequence/sketch.md"
+                "file": "knowledge/Data Structure.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "sketch"
+              "icon": "lucide-file",
+              "title": "Data Structure"
             }
           }
         ]
@@ -167,17 +169,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "dea516a9b3dab0d8",
+  "active": "53f3e082c61a6f71",
   "lastOpenFiles": [
-    "problems/is_subsequence/README.md",
-    "problems/is_subsequence/sketch.md",
-    "problems/replace_elements_with_greatest_element_on_right_side/sketch.md",
+    "knowledge/Heuristic.md",
+    "knowledge/NP-hardness.md",
     "knowledge/Data Structure.md",
-    "problems/replace_elements_with_greatest_element_on_right_side/Sketch.md",
-    "Excalidraw",
-    "knowledge/Array.md",
     "knowledge/Linked List.md",
+    "knowledge/Array.md",
+    "knowledge/List.md",
     "knowledge/Tree.md",
-    "knowledge/List.md"
+    "Excalidraw/Linked List 2025-03-24 21.00.33.excalidraw.md",
+    "Excalidraw",
+    "problems/is_subsequence/sketch.md",
+    "problems/is_subsequence/README.md",
+    "problems/replace_elements_with_greatest_element_on_right_side/sketch.md",
+    "problems/replace_elements_with_greatest_element_on_right_side/Sketch.md"
   ]
 }
