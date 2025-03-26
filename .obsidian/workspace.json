@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Data Structure"
             }
+          },
+          {
+            "id": "d87ef188f3cbdc6e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "problems/reverse_string/typescript-deno/sketch.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "sketch"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,15 +184,16 @@
   },
   "active": "53f3e082c61a6f71",
   "lastOpenFiles": [
+    "knowledge/Data Structure.md",
+    "problems/reverse_string/typescript-deno/sketch.md",
+    "Excalidraw",
     "knowledge/Heuristic.md",
     "knowledge/NP-hardness.md",
-    "knowledge/Data Structure.md",
     "knowledge/Linked List.md",
     "knowledge/Array.md",
     "knowledge/List.md",
     "knowledge/Tree.md",
     "Excalidraw/Linked List 2025-03-24 21.00.33.excalidraw.md",
-    "Excalidraw",
     "problems/is_subsequence/sketch.md",
     "problems/is_subsequence/README.md",
     "problems/replace_elements_with_greatest_element_on_right_side/sketch.md",
