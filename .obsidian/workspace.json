@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "problems/group_anagrams/typescript-deno/sketch.md"
+                "file": "problems/binary_search/typescript-deno/sketch.md"
               },
               "icon": "excalidraw-icon",
               "title": "sketch"
@@ -169,8 +169,10 @@
   },
   "active": "d87ef188f3cbdc6e",
   "lastOpenFiles": [
-    "problems/group_anagrams/typescript-deno/README.md",
+    "problems/binary_search/typescript-deno/README.md",
+    "problems/binary_search/typescript-deno/sketch.md",
     "problems/group_anagrams/typescript-deno/sketch.md",
+    "problems/group_anagrams/typescript-deno/README.md",
     "problems/reverse_string/typescript-deno/sketch.md",
     "knowledge/Data Structure.md",
     "Excalidraw",
