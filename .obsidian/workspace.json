@@ -13,13 +13,26 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "problems/binary_search/typescript-deno/sketch.md"
+                "file": "problems/is_subsequence/typescript-deno/sketch.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "sketch"
+            }
+          },
+          {
+            "id": "37a0747b7a57f4aa",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "problems/append_characters_to_string_to_make_subsequence/python3/sketch.md"
               },
               "icon": "excalidraw-icon",
               "title": "sketch"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "82560a1b317957cd",
@@ -167,10 +181,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d87ef188f3cbdc6e",
+  "active": "37a0747b7a57f4aa",
   "lastOpenFiles": [
-    "problems/binary_search/typescript-deno/README.md",
+    "problems/is_subsequence/typescript-deno/sketch.md",
+    "problems/append_characters_to_string_to_make_subsequence/python3/sketch.md",
+    "problems/append_characters_to_string_to_make_subsequence/python3/README.md",
     "problems/binary_search/typescript-deno/sketch.md",
+    "problems/binary_search/typescript-deno/README.md",
     "problems/group_anagrams/typescript-deno/sketch.md",
     "problems/group_anagrams/typescript-deno/README.md",
     "problems/reverse_string/typescript-deno/sketch.md",
