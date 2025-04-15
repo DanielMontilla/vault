@@ -19,5 +19,6 @@
       "source.organizeImports": "explicit"
     }
   },
-  "rust-analyzer.trace.server": "verbose"
+  "rust-analyzer.trace.server": "verbose",
+  "kotlin.compiler.jvm.target": "21"
 }
