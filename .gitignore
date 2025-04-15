@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c,c++,vim,dart,deno,java,node,rust,emacs,macos,flutter,windows,python,venv
-# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,vim,dart,deno,java,node,rust,emacs,macos,flutter,windows,python,venv
+# Created by https://www.toptal.com/developers/gitignore/api/c,c++,vim,dart,deno,java,node,rust,venv,emacs,macos,python,flutter,windows,gradle,kotlin
+# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,vim,dart,deno,java,node,rust,venv,emacs,macos,python,flutter,windows,gradle,kotlin
 
 ### C ###
 # Prerequisites
@@ -251,6 +251,19 @@ lib/generated_plugin_registrant.dart
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+### Kotlin ###
+# Compiled class file
+
+# Log file
+
+# BlueJ files
+
+# Mobile Tools for Java (J2ME)
+
+# Package Files #
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 
 ### macOS ###
 # General
@@ -611,7 +624,7 @@ Cargo.lock
 [Ll]ib
 [Ll]ib64
 [Ll]ocal
-# [Ss]cripts
+[Ss]cripts
 pyvenv.cfg
 pip-selfcheck.json
 
@@ -661,4 +674,31 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/c,c++,vim,dart,deno,java,node,rust,emacs,macos,flutter,windows,python,venv
+### Gradle ###
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+### Gradle Patch ###
+# Java heap dump
+*.hprof
+
+# End of https://www.toptal.com/developers/gitignore/api/c,c++,vim,dart,deno,java,node,rust,venv,emacs,macos,python,flutter,windows,gradle,kotlin
